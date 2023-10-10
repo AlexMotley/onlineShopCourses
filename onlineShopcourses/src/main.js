@@ -1,14 +1,9 @@
-import './style.css'
+import "./style.pcss"
+import "/src/mocks/browser.js"
 
-// src/mocks/browser.js
-import { setupWorker } from 'msw'
-import { handlers } from './src/mocks/handlers'
 
-// This configures a Service Worker with the given request handlers.
-export const worker = setupWorker(...handlers)
-
-if (process.env.NODE_ENV === 'development') {
-  const { worker } = require('./mocks/browser.js')
+if (process.env.NODE_ENV === "development") {
+  const { worker } = "/src/mocks/browser.js"
   worker.start()
 }
 
