@@ -3,7 +3,8 @@ const runApp = async () => {
     case "development":
       await import("/src/mocks/browser.js")
           .then(async ({ worker }) => {
-              await worker.start().then(() => { console.debug("App dev run")
+              await worker.start().then(() => { 
+                console.debug("App dev run")
               })
           }) }
 }
