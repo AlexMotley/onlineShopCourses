@@ -10,10 +10,8 @@ export default () => {
                     <li>
                         <a href="/">Главная</a>
                     </li>
-                    <li>
-                        <a href="/about.html">О Нас</a>
-                    </li>
                 </ul>
+                Мы - самая передовая передовая
             </nav>
         `
     })

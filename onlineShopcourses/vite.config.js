@@ -7,11 +7,11 @@ const pages = [
     {
         name: "index",
         content: mainPage()
+    },
+    {
+        name: "about",
+        content: aboutPage()
     }
-    // {
-    //     name: "about",
-    //     content: aboutPage()
-    // },
 ]
 
 export default defineConfig({
